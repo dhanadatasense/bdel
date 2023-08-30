@@ -1,0 +1,213 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.button_clr {
+    color: #fff !important;
+    margin-right: 3px !important;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    padding: 0px;
+    line-height: 26px;
+}
+
+.line_height {
+    line-height: 30px !important;
+}
+
+.tablelocload {
+    height: 45px;
+}
+
+.tablelocload:empty {
+    animation: loading 1.1s infinite linear;
+    background: #f4f4f4;
+    background-image: -webkit-linear-gradient(to right, #dedfe1 0%, #f2f3f5 20%, #dedfe1 40%, #dedfe1 100%);
+    background-image: linear-gradient(to right, #dedfe1 0%, #f2f3f5 20%, #dedfe1 40%, #ececec 100%);
+    background-repeat: no-repeat;
+}
+
+@keyframes loading {
+    0% {
+        background-position: -100px;
+    }
+
+    50% {
+        background-position: 200px;
+    }
+
+    100% {
+        background-position: 300px;
+    }
+}
+
+.button_size {
+    padding: 6px;
+}
+
+.p-l-0 {
+    padding-left: 0px !important;
+}
+
+.f-w-500 {
+    font-weight: 500;
+}
+
+.m-t-6 {
+    margin-top: 6px;
+}
+
+.m-t-27 {
+    margin-top: 27px;
+}
+
+.count_height {
+    padding-top: 2%;
+}
+
+.p-t-20 {
+    padding-top: 20px !important;
+}
+
+.font-12 {
+    font-size: 13px !important;
+}
+
+/*.select2-container--default.select2-container--focus
+{
+    width: 100% !important;
+}*/
+
+.menu-expanded .navbar-brand img {
+    width: 100% !important;
+    height: 70px !important;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+/*.dis_code input
+{
+    text-transform: uppercase !important;
+}*/
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+#openModalButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-navbar .navbar-wrapper {
+    background-color: #0671c6;
+}
+
+.navigation li.has-sub>a:not(.mm-next)::after {
+    content: "\e844";
+    font-family: 'feather' !important;
+    font-size: 1rem;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    transform: rotate(0deg);
+    transition: -webkit-transform 0.2s ease-in-out;
+}
+
+.content-body .card-header {
+    background: initial;
+}
+
+.form-control {
+    height: 42px;
+    padding: 12px 16px;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    box-shadow: initial;
+}
+
+body,
+.breadcrumb {
+    font-family: 'Sen', sans-serif !important;
+}
+
+.table thead th {
+    padding: 10px 8px;
+}
+
+.table-responsive .table thead {
+    background: #e3ebf3;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+    padding: 4px 12px;
+}
+
+.btn.searchdata {
+    height: 42px;
+    font-size: 16px;
+    padding: 8px 24px;
+}
+
+.breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    content: "\e844";
+    font-family: 'feather' !important;
+}
