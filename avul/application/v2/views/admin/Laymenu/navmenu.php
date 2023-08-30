@@ -5,7 +5,8 @@
                         <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="fa fa-bars font-large-1"></i></a></li>
                         <li class="nav-item">
                             <a class="navbar-brand" href="#">
-                                <img class="brand-logo rounded mx-auto d-block center-block" alt="modern admin logo" style="margin-top: -20px;" src="https://www.datasense.in/images/datasense.png" />
+                                <img class="brand-logo rounded mx-auto center-block" alt="modern admin logo" src="<?php echo BASE_URL; ?>app-assets/images/logob.png" />
+                                <h3 class="brand-text">BDEL</h3>
                             </a>
                         </li>
                         <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a></li>

@@ -3,6 +3,7 @@
 
 <head>
     <title>Login Page - Bdel Admin Panel</title>
+    <link id="favicon" rel="shortcut icon" href="<?php echo BASE_URL; ?>app-assets/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>app-assets/vendors/css/forms/icheck/icheck.css">
@@ -51,7 +52,7 @@
                             <div class="card-header border-0">
                                 <div class="card-title text-center">
                                     <div class="p-2">
-                                        <img src="https://www.datasense.in/images/datasense.png" alt="branding logo" style="height:74px;">
+                                        <img src="<?php echo BASE_URL; ?>app-assets/images/logob.png" alt="branding logo" style="height:74px;">
                                     </div>
                                 </div>
                                 <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2"><span>Log in to your account </span>

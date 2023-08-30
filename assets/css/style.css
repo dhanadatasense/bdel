@@ -94,9 +94,25 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     width: 100% !important;
 }*/
 
-.menu-expanded .navbar-brand img {
-    width: 100% !important;
-    height: 70px !important;
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    height: 70px;
+    width: 70px;
+    margin-top: 2px;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-text {
+    padding-top: 4px;
+}
+
+body.vertical-layout.vertical-menu.menu-collapsed .header-navbar .navbar-header .navbar-brand .brand-logo {
+    height: 32px;
+    width: 32px;
+    margin-top: initial;
+}
+
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu.menu-light .navigation>li>ul,
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu.menu-light ul.menu-popout {
+    background: #fff !important;
 }
 
 .bg-white {
@@ -157,13 +173,11 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 .navigation li.has-sub>a:not(.mm-next)::after {
     content: "\e844";
     font-family: 'feather' !important;
-    font-size: 1rem;
-    display: inline-block;
-    position: absolute;
-    right: 20px;
-    top: 13px;
-    transform: rotate(0deg);
-    transition: -webkit-transform 0.2s ease-in-out;
+}
+
+body.vertical-layout.vertical-menu.menu-collapsed .navigation li.has-sub>a:not(.mm-next)::after {
+    content: "\e844";
+    font-family: 'feather' !important;
 }
 
 .content-body .card-header {
@@ -210,4 +224,8 @@ body,
 .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
     content: "\e844";
     font-family: 'feather' !important;
+}
+
+.header-navbar .navbar-header .navbar-brand {
+    padding: initial;
 }

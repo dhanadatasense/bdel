@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
-
+    <link id="favicon" rel="shortcut icon" href="<?php echo BASE_URL; ?>app-assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>app-assets/vendors/css/weather-icons/climacons.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>app-assets/fonts/meteocons/style.min.css">

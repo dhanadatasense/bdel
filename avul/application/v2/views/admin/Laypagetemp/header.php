@@ -3,13 +3,11 @@
 
 <head>
     <title><?php echo $page_title; ?> - Bdel Admin Panel</title>
-    <!-- Udangudi Karupatti Admin Panel -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
-
+    <link id="favicon" rel="shortcut icon" href="<?php echo BASE_URL; ?>app-assets/images/favicon.ico" type="image/x-icon">
     <link href="<?php echo BASE_URL; ?>app-assets/vendors/css/vendors.min.css" rel="stylesheet" type="text/css">
     <link href="<?php echo BASE_URL; ?>app-assets/vendors/css/pickers/daterange/daterangepicker.css" rel="stylesheet" type="text/css">
     <link href="<?php echo BASE_URL; ?>app-assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">

@@ -60,32 +60,6 @@
                                     <form class="data_form" name="data_form" method="post">
                                         <div class="form-body">
                                             <div class="row">
-                                                <div class="col-md-3">
-                                                    <div class="form-group">
-                                                        <label for="projectinput1">Select Country <span class="text-danger">*</span></label>
-                                                        <select class="form-control month_id js-select1-multi" id="month_id" name="month_id" style="width: 100%;">
-                                                            <option value="">Select Country</option>
-                                                            <?php
-                                                                if (!empty($month_list))
-                                                                {
-                                                                    foreach ($month_list as $key => $value_2)
-                                                                    {
-                                                                        $month_value = !empty($value_2['month_value'])?$value_2['month_value']:'';
-                                                                        $month_name  = !empty($value_2['month_name'])?$value_2['month_name']:'';
-
-                                                                        $select = '';
-                                                                        if($month_value == $month_id)
-                                                                        {
-                                                                            $select = 'selected';
-                                                                        }
-
-                                                                        echo '<option value="'.$month_value.'" '.$select.'>'.$month_name.'</option>';
-                                                                    }
-                                                                }
-                                                            ?>
-                                                        </select>
-                                                    </div>
-                                                </div>
 
                                                 <div class="col-md-3">
                                                     <div class="form-group">
